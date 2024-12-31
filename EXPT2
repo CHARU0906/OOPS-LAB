@@ -1,1 +1,16 @@
+\\ Printing pentagonal numbers
+import java.util.*;
+class practice{
+public static void main(String[] args){
+Scanner n = new Scanner(System.in);
+System.out.println("Enter the limit");
+int a = n.nextInt();
+for(int i=1;i<=a;i++){
+int b = (3 * i * i - i) / 2;
+System.out.print(b);
+System.out.print(" ");
+}
+}
+}
+
 
